@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -15,16 +12,12 @@
   padding: 0;
 }
 
-html {
-  font-size: 16px;
-  max-width: 428px;
-  height: 2336px;
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  max-width: 375px;
+  margin: auto;
 }
 
 a {
@@ -69,5 +62,22 @@ em {
 }
 
 header {
+}
+
+.pump {
+  padding: 25px 25px 25px 25px;
+  background-image: url(../img/sjf.jpg);
+  background-size: 100%;
+  background-position: 0px;
+}
+.desire {
+  padding: 25px 25px 25px 25px;
+  background-image: url(../img/sjf.jpg);
+  background-size: 100%;
+  background-position: 0px;
+}
+
+.titre {
   background: #d7a1fd;
+  text-transform: uppercase;
 }
