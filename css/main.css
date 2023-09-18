@@ -75,9 +75,67 @@ header {
   background-image: url(../img/sjf.jpg);
   background-size: 100%;
   background-position: 0px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
 }
 
 .titre {
+  font-family: "Nunito Sans", sans-serif;
   background: #d7a1fd;
   text-transform: uppercase;
+  text-align: center;
+  padding: 20 20 20 78px;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+}
+.soustitre {
+  color: white;
+  text-align: center;
+  background: #d7a1fd;
+}
+.vingtetrois {
+  color: #000;
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.container {
+  text-align: center;
+  background: black;
+  color: white;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.programme {
+  text-decoration: none;
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-right: 271px;
+  padding-bottom: 20px;
+  padding-left: 42px;
+}
+.Opportunities {
+  text-decoration: none;
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+}
+.News {
+  text-decoration: none;
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
 }
